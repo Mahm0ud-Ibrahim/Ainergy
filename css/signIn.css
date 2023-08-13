@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+}
+
+.nav{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: fixed;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+   
+}
+.nav .logo{
+    padding: 10px 0px 0px 90px;
+}
+.nav .logo a{
+    text-decoration: none;
+    color: #505050;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+}
+.nav .logo a span{
+    color: #ed893d;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+
+.nav .contant{
+    text-align: center;
+    padding-top: 17px;
+    padding-right: 150px;
+}
+.nav .contant ul{
+
+
+}
+.nav .contant ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+.nav .contant ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    
+    font-family: "Roboto", sans-serif;
+}
+.nav .contant ul li a:hover{
+    color: #ed893d;
+}
+.nav .contant ul .Sign a:hover{
+    color: red;
+}
+.nav .contant ul .Sign a{
+    color: red;
+}
+/************end nav************/
+section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+section .con{
+    width: 55%;
+    height: 75%;
+    border: #333 1px solid;
+}
+section .con .title{
+    width: 100%;
+    height: 10%;
+    border-bottom: #333 1px solid;
+}
+section .con .title h1{
+    text-align: center;
+   padding-top: 10px;
+}
+section .card{
+    width: 100%;
+    height:100%;
+}
+
+section .card .email{
+    width: 100%;
+    height: 16%;
+    text-align: center;
+    padding-top: 30px;
+}
+section .card .email label{
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+section .card .email input{
+    width: 40%;
+    height: 60%;
+    border-radius: 5px;
+    border: #333 solid 0.25px;
+}
+section .card .pas{
+    width: 100%;
+    height: 16%;
+    text-align: center;
+    padding-top: 30px;
+}
+section .card .pas label{
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 70px;
+}
+section .card .pas input{
+    width: 40%;
+    height: 60%;
+    border-radius: 5px;
+    border: #333 solid 0.25px;
+}
+
+
+section .card .rem{
+    width: 100%;
+    height: 10%; 
+    padding-top: 20px;
+}
+section .card .rem input{
+    width: 16px;
+    height: 16px;
+    margin-left: 340px;
+    border: #333 solid 0.25px;
+}
+section .card .rem label{
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+
+
+section .card .log{
+    width: 100%;
+    height: 16%;
+    text-align: end;
+   padding-top: 50px;
+   
+}
+section .card .log h1{
+    display: inline;
+    background-color: #ed893d;
+    color: #fff;
+    padding: 20px  40px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+section .card .log h1:hover{
+    background-color:blue;
+}
+section .card .log p{
+    display: inline;
+    color: black;
+    padding: 0px 70px;
+}
+section .card .log p a{
+    
+    color: black;
+}
+section .card .log p a:hover{
+    color: blue;
+}
+/*******************/
+.end{
+    width: 100%;
+    height: 20vh;
+    margin-top: 50px;
+    border-top: 13px solid #000;
+    
+    }
+    .end .make{
+
+        text-align: center;
+    padding-top: 50px;
+    }
+    .end .make .pp{
+        color: #505050;
+        font-size: 20px;
+    }
+    .end .make .by{
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .end .make .by a{
+        text-decoration: none;
+        color: rgb(218, 79, 20);
+    }

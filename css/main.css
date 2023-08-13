@@ -1,0 +1,583 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: fixed;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+.nav .logo{
+    padding: 10px 0px 0px 90px;
+}
+.nav .logo a{
+    text-decoration: none;
+    color: #505050;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+}
+.nav .logo a span{
+    color: #ed893d;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+.nav .m{
+    display: none;
+}
+.nav .contant{
+    text-align: center;
+    padding-top: 17px;
+    padding-right: 150px;
+}
+.nav .contant ul{
+
+}
+.nav .contant ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+.nav .contant ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    font-family: "Roboto", sans-serif;
+}
+.nav .contant ul li a:hover{
+    color: #ed893d;
+}
+.nav .contant ul .Sign a:hover{
+    color: red;
+}
+.nav .contant ul .Sign a{
+    color: red;
+}
+/*===========end nav=================*/
+.part1{
+    padding-top: 500px;
+    height: 700px;
+    background-color:#fff;
+    text-align: center;
+    padding: 30px 0px;
+    padding-top: 150px;
+    background-image: url(../photo/hero-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.part1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Philosopher", sans-serif;
+    color: #ed893d;
+}
+.part1 p{
+    color: #777;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding: 20px 0px;
+}
+.part1 img{
+    padding-bottom: 40px;
+}
+.part1>a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 11px 36px;
+    margin-bottom: 30px;
+    border: 2px solid #ed893d;
+    background: #fff;
+    color: #ed893d;
+    text-decoration: none;
+}
+.part1>a:hover{
+    background:  #ed893d ;
+    color:#fff;
+}
+.part1 .part1-2{
+margin-top: 50px;
+
+}
+.part1 .part1-2 a{
+    margin: 4px 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 11px;
+    font-weight: 600;
+}
+.part1 .part1-2 a:hover{
+color: #ed893d;
+}
+.part1 .part1-2 a i{
+width:60px ;
+font-size: 18px;
+
+}
+/*================end part 1====================*/
+.part2{
+    width: 100%;
+    height: 547.2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+}
+.part2 .title{
+    width: 100%;
+    height: 54px;
+    text-align: center;
+}
+.part2 .title h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.part2 .pp2{
+    width: 100%;
+    height: 244px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.part2 .pp2 .p:hover,.part2 .pp2 .p1:hover{
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+.part2 .pp2 .p{
+    
+    width: 660px;
+    height: 244px;
+    text-align: center;
+}
+
+.part2 .pp2 .p1{
+    width: 660px;
+    height: 244px;
+    text-align: center;
+}
+.part2 .pp2 .p img,.part2 .pp2 .p1 img {
+    width: 55px;
+    height: 55px;
+    padding: 30px 0px;
+}
+.part2 .pp2 .p h1 ,.part2 .pp2 .p1 h1 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+padding-bottom: 30px;
+}
+.part2 .pp2 .p p ,.part2 .pp2 .p1 p {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+padding-bottom: 40px;
+}
+/*======================end part 2==============*/
+.container{
+    height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px 100px;
+}
+.container .c{
+    width: 100%;
+    height: 747.2px;
+    display: flex;
+   flex-wrap: wrap;
+}
+.container .c1{
+width: 100%;
+height: 104px;
+text-align: center;
+}
+.container .c1 h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 20px;
+}
+.container .c1 p{
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.container .c2{
+    width: 100%;
+    height: 452px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+.container .c2 .m1{
+    width: 429.99px;
+    height: 226px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .c2 .m2{
+    width: 429.99px;
+    height: 226px;
+    text-align: center;
+}
+.container .c2 .m3{
+    width: 429.99px;
+    height: 226px;
+    text-align: center;
+}
+.container .c2 .m4{
+    width: 650px;
+    height: 226px;
+    text-align: center;
+}
+.container .c2 .m5{
+    width: 650px;
+    height: 226px;
+    text-align: center;
+}
+.container .c2 .m1 img,.container .c2 .m2 img,.container .c2 .m3 img,
+.container .c2 .m4 img,.container .c2 .m5 img{
+    width: 60px;
+    height: 60px;
+    padding: 30px 0px;
+}
+.container .c2 .m1 h1,.container .c2 .m2 h1,.container .c2 .m3 h1,
+.container .c2 .m4 h1,.container .c2 .m5 h1{
+    font-weight: 100;
+    font-size: 18px;
+}
+.container .c2 .m1:hover,.container .c2 .m2:hover,.container .c2 .m3:hover,
+.container .c2 .m4:hover,.container .c2 .m5:hover{
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+/*==============================*/
+
+/*==============================*/
+.container .d{
+    width: 100%;
+    height:747.2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .d1{
+    width: 100%;
+    height: 104px;
+    text-align: center;
+}
+.container .d1 h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 20px;
+}
+.container .d1 p{
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.container .d2{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .d2 .a1,.container .d2 .a3,
+.container .d2 .a4,.container .d2 .a6 ,
+.container .d2 .a2,.container .d2 .a5{
+    width: 419.99px;
+    height: 184px;
+    text-align: center;
+    
+    margin: 5px 5px;
+}
+.container .d2 .a1 i,.container .d2 .a3 i,
+.container .d2 .a4 i,.container .d2 .a6 i ,
+.container .d2 .a2 i,.container .d2 .a5 i{
+padding-top: 50px;
+}
+.container .d2 .a1 h1,.container .d2 .a3 h1,.container .d2 .a4 h1,
+.container .d2 .a6 h1,.container .d2 .a2 h1,.container .d2 .a5 h1{
+    padding-top: 10px;
+font-size: 18px;
+font-weight: 100;
+}
+.container .d2 .a1:hover,.container .d2 .a3:hover,
+.container .d2 .a4:hover,.container .d2 .a6:hover ,
+.container .d2 .a2:hover,.container .d2 .a5:hover{
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+/************************************************************/
+.container .f{
+    width: 100%;
+    height: 733.6px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.container .f .f1{
+    width: 100%;
+    height: 54px;
+    text-align: center;
+}
+.container .f .f1 h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 20px;
+}
+.container .f .f2{
+    width: 100%;
+    height: 499.6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container .f .f2 .out{
+    width: 48%;
+    height: 499.6px;  
+}
+.container .f .f2 .out .location ,.container .f .f2 .out .email,
+.container .f .f2 .out .number{
+    display: flex;
+}
+.container .f .f2 .out .ic{
+    margin: 30px 10px;
+    
+}
+.container .f .f2 .out .ic i{
+    color: #ed893d;
+    font-size: 26px;
+}
+.container .f .f2 .out .email .wr,.container .f .f2 .out .number .wr {
+    padding-top: 8px;
+}
+.container .f .f2 .out p{
+    color: #777;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding: 25px 0px;
+}
+
+
+/***in*****/
+.container .f .f2 .in{
+    width: 48%;
+    height: 499.6px;
+   
+}
+.container .f .f2 .in input{
+    width: 95%;
+    height: 40px;
+    margin: 10px 10px;
+}
+
+.container .f .f2 .in textarea{
+    margin: 10px 10px;
+}
+.container .f .f2 .in .bu{
+text-align: center;
+}
+.container .f .f2 .in button{
+
+    color: #fff;
+    background: #ed7958;
+    border: hidden;
+    padding: 13px 25px;
+}
+.container .f .f2 .in .bu button:hover{
+    background-color: #6bdf8c;
+}
+/*==================end==================*/
+.end{
+width: 100%;
+height: 90px;
+margin-top: 50px;
+border-top: 13px solid #000;
+
+}
+.end .make{
+    text-align: center;
+padding-top: 20px;
+}
+.end .make .pp{
+    color: #505050;
+    font-size: 20px;
+}
+.end .make .by{
+    padding-top: 8px;
+    font-size: 20px;
+}
+.end .make .by a{
+    text-decoration: none;
+    color: rgb(218, 79, 20);
+}
+/***********************************/
+.back{
+padding: 10px;
+border-radius: 5px;
+background: #ed893d;
+position: fixed ;
+right: 10px;
+bottom: 30px;
+}
+.back i{
+    font-size: 20px;
+color: #fff;
+}
+.back:hover{
+    background-color: #6bdf8c;
+}
+/*************************************************************************************/
+@media (max-width:750px) {
+ 
+    .nav .logo{
+        padding: 10px 0px 0px 50px;
+    }
+    .nav .m{
+        display: block;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .nav .contant{
+        display: none;
+    }
+    /*===========end nav=================*/
+    .part1{
+        height: 550px;
+    }
+    .part1 h1{
+        font-size: 30px;
+    }
+     .part1 img{
+        width: 300px;
+        height: 200px;
+    }
+    /*================end part 1====================*/
+    .part2{
+        height: 850px;
+        display: block;
+        padding: 0px 0px;
+    }
+    .part2 .title{
+        height: 300px;
+       padding-bottom: 0px;
+    }
+
+    .part2 .pp2{
+        width: 90%;
+        padding-left: 15px;
+    }
+    .part2 .pp2 .p img,.part2 .pp2 .p1 img {
+        width: 75px;
+        height: 75px;
+    }
+    .part2 .pp2 .p h1 ,.part2 .pp2 .p1 h1 {
+        font-size: 18px;
+    }
+    .part2 .pp2 .p p ,.part2 .pp2 .p1 p {
+        font-size: 16px;
+    }
+    /*======================end part 2==============*/
+    .container{
+       display: block;
+       height: 3900px;
+       margin: 0px 10px;
+    }
+    .container .c{
+        height: 1400px;
+        display: block;
+    }
+    .container .c1{
+    height: 200px;
+    }
+    .container .c2{
+        height: 1200px;
+        display: block;
+        padding: 0px 0px;
+    }
+    .container .c2 .m1,.container .c2 .m2,.container .c2 .m3,
+    .container .c2 .m4,.container .c2 .m5{
+        width: 100%;
+    }
+    .container .c2 .m1 img,.container .c2 .m2 img,.container .c2 .m3 img,
+    .container .c2 .m4 img,.container .c2 .m5 img{
+        width: 70px;
+        height: 70px;
+    }
+    /*==============================*/
+    
+    /*==============================*/
+    .container .d{
+        height:1400px;
+        display: block;
+    }
+    .container .d1{
+    height: 130px;
+    }
+    .container .d1 p{
+        font-size: 18px;
+    }
+    .container .d2{
+        display: block;
+        text-align: center;
+    }
+    .container .d2 .a1,.container .d2 .a3,
+    .container .d2 .a4,.container .d2 .a6 ,
+    .container .d2 .a2,.container .d2 .a5{
+        width: 95%;
+        margin: 10px;
+    }
+    /************************************************************/
+    .container .f{
+        height: 1120px;
+        display: block;
+    }
+    .container .f .f1{
+        height: 70px;
+    }
+    .container .f .f2{
+        height: 1050px;
+        display: block;
+    }
+    .container .f .f2 .out{
+        width: 100%;
+        text-align: center;
+    }
+    /***in*****/
+    .container .f .f2 .in{
+        width: 100%;
+        height: 550px;
+        display: block;
+        text-align: center;
+    }
+    .container .f .f2 .in input{
+        width: 90%;
+    }
+    .container .f .f2 .in textarea{
+        width: 90%;
+    }
+}
